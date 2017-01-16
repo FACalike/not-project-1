@@ -1,0 +1,63 @@
+body {
+  background: url(../images/background.jpg);
+
+  /* Fit the image to the size of the page */
+  background-size: cover;
+
+  font-family: Roboto, sans-serif;
+
+  /* Make the text white so it's readable on the dark background */
+
+  color: white;
+
+  /*
+    Add a 1px shadow around all the text in all directions
+    This gives it the appearance of being outlined.
+  */
+
+  text-shadow:
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+  /*
+    Center the text on the page in both directions. Note the interaction
+    isn't quite the same as "text-align: center;" since the text is still
+    left aligned.
+  */
+
+.valign-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    background-image: url(/images/navbar_image.jpg);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-align: right;
+    padding: 14px 96px;
+    text-decoration: none;
+    background-image:
+    
+}
+
+li a:hover {
+    background-color: #b3e784;
+}

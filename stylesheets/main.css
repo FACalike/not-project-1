@@ -34,30 +34,3 @@ body {
   align-items: center;
   justify-content: center;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    background-image: url(../images/navbar_image.jpg);
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: flex;
-    color: white;
-    text-align: right;
-    padding: 14px 96px;
-    text-decoration: none;
-    background-image:
-
-}
-
-li a:hover {
-    background-color: #b3e784;
-}
